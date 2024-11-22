@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Définir les caractères à utiliser pour chaque niveau de noirceur
-CARACTERES = "BEADC"
+CARACTERES = "your letter from lightest to darkest"
 
 def pixel_en_caractere(pixel):
     # Convertir la valeur du pixel en caractère
@@ -21,7 +21,7 @@ def image_en_texte(chemin_image):
     return texte
 
 # Convertir l'image en texte
-texte = image_en_texte(r"C:\Users\rfoug\Documents\espace de travail\LP2I\Term\Art P\image\deuxième font 3 214_314.png")
+text = image_en_texte(r"your image")
 
 # Afficher le texte
 print(texte)
